@@ -17,9 +17,9 @@ This project analyzes the **spectral signatures of brain microstates** across di
 ```
 Spectral-Signature-of-Brain-Microstates/
 ├── Anxiety/
-│   └── [Analysis and preprocessing scripts for anxiety state data]
+│   └── [Analysis and preprocessing scripts for anxiety state EEG data]
 ├── Chronic Stress/
-│   └── [Analysis and preprocessing scripts for chronic stress state data]
+│   └── [Analysis and preprocessing scripts for chronic stress state EEG data]
 └── README.md
 ```
 
@@ -38,23 +38,7 @@ Spectral-Signature-of-Brain-Microstates/
 ### Model Comparison
 - **CNN Architecture**: Captures spatial-spectral patterns in spectrograms
 - **LSTM Architecture**: Processes temporal sequences of spectrogram features
-- **Evaluation**: Compare classification accuracy, precision, recall, and other relevant metrics
-
-## Getting Started
-
-### Requirements
-- Python 3.7+
-- TensorFlow/Keras
-- NumPy
-- SciPy
-- Matplotlib
-- scikit-learn
-
-### Installation
-
-```bash
-pip install -r requirements.txt
-```
+- **Evaluation**: Classification accuracy 
 
 ### Usage
 
@@ -86,25 +70,6 @@ Expected outputs include:
 - Spectrograms for anxiety vs. chronic stress conditions
 - Model performance comparison plots
 - Feature importance/activation maps (for CNN)
-- Classification metrics and confusion matrices
-
-## Future Work
-
-- [ ] Explore hybrid architectures combining spatial and temporal features
-- [ ] Investigate attention mechanisms for feature weighting
-- [ ] Expand to additional psychological/neurological conditions
-- [ ] Perform interpretability analysis on learned CNN filters
-- [ ] Validate findings with larger datasets
-
-## References
-
-- Key research on brain microstates and EEG analysis
-- Deep learning applications in neuroimaging
-- CNN vs. RNN for time-series classification in medical domains
-
-## License
-
-[Specify your license here, e.g., MIT, GPL, etc.]
 
 ## Author
 
