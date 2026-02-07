@@ -31,8 +31,7 @@ Spectral-Signature-of-Brain-Microstates/
 ## Methodology
 
 ### Data Processing
-- Extract EEG spectrograms from raw signals
-- Compute spectral signatures of brain microstates
+- Compute EEG spectrograms (spectral microstates) from raw signals
 - Prepare normalized datasets for model training
 
 ### Model Comparison
