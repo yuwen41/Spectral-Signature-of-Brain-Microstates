@@ -15,7 +15,7 @@ class MyModel(Module):
         )
 
         self.linear_layers = Sequential(
-            Linear(64*599, 4096),
+            Linear(64*119, 4096),
             ReLU(),
             Dropout(0.5),
             Linear(4096, 2048),
