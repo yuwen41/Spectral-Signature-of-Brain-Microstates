@@ -15,7 +15,7 @@ class MyModel(Module):
         )
 
         self.linear_layers = Sequential(
-            Linear(64*119, 4096),
+            Linear(64*599, 4096),
             ReLU(),
             Dropout(0.5),
             Linear(4096, 2048),
@@ -72,12 +72,6 @@ from matplotlib.gridspec import GridSpec
 # change CNN filters to one dimension
 n_filters = conv1_filters.shape[0]
 flattened_filters = conv1_filters.reshape(n_filters, -1)
-
-#move tensor from GPU to CPU
-# flattened_filters_cpu = flattened_filters.cpu()
-
-#change tensor to numpy
-# flattened_filters_np = flattened_filters_cpu.numpy()
 
 #consine similarity matrix
 cosine_sim_matrix = cosine_similarity(flattened_filters)
